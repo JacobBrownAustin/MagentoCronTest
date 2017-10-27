@@ -1,10 +1,5 @@
 <?xml version="1.0"?>
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Cron:etc/crontab.xsd">
-    <group id="crontest">
-        <job name="crontest1" instance="Magento\CronTest\Cron\Test" method="execute">
-            <schedule>* * * * *</schedule>
-        </job>
-    </group>
     <group id="crontestgroup2">
         <job name="crontestgroup2test1" instance="Magento\CronTest\Cron\Test" method="execute">
             <schedule>*/5 * * * *</schedule>

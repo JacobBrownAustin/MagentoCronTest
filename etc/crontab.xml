@@ -5,4 +5,9 @@
             <schedule>* * * * *</schedule>
         </job>
     </group>
+    <group id="crontestgroup2">
+        <job name="crontestgroup2test1" instance="Magento\CronTest\Cron\Test" method="execute">
+            <schedule>*/5 * * * *</schedule>
+        </job>
+    </group>
 </config>
